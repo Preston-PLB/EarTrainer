@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEEB8546218CAE14004CAAAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB8545218CAE14004CAAAF /* AppDelegate.swift */; };
+		DEEB8548218CAE14004CAAAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB8547218CAE14004CAAAF /* ViewController.swift */; };
+		DEEB854B218CAE14004CAAAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEB8549218CAE14004CAAAF /* Main.storyboard */; };
+		DEEB854D218CAE14004CAAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEB854C218CAE14004CAAAF /* Assets.xcassets */; };
+		DEEB8550218CAE14004CAAAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEB854E218CAE14004CAAAF /* LaunchScreen.storyboard */; };
+		DEEB855B218CAE14004CAAAF /* EarTrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB855A218CAE14004CAAAF /* EarTrainerTests.swift */; };
+		DEEB8566218CAE15004CAAAF /* EarTrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB8565218CAE15004CAAAF /* EarTrainerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEEB8557218CAE14004CAAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEEB853A218CAE13004CAAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEEB8541218CAE13004CAAAF;
+			remoteInfo = EarTrainer;
+		};
+		DEEB8562218CAE15004CAAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEEB853A218CAE13004CAAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEEB8541218CAE13004CAAAF;
+			remoteInfo = EarTrainer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEEB8542218CAE13004CAAAF /* EarTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEB8545218CAE14004CAAAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEEB8547218CAE14004CAAAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEEB854A218CAE14004CAAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEEB854C218CAE14004CAAAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEEB854F218CAE14004CAAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEEB8551218CAE14004CAAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEEB8556218CAE14004CAAAF /* EarTrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarTrainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEB855A218CAE14004CAAAF /* EarTrainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarTrainerTests.swift; sourceTree = "<group>"; };
+		DEEB855C218CAE14004CAAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEEB8561218CAE15004CAAAF /* EarTrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarTrainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEB8565218CAE15004CAAAF /* EarTrainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarTrainerUITests.swift; sourceTree = "<group>"; };
+		DEEB8567218CAE15004CAAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEEB853F218CAE13004CAAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEB8553218CAE14004CAAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEB855E218CAE14004CAAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEEB8539218CAE13004CAAAF = {
+			isa = PBXGroup;
+			children = (
+				DEEB8544218CAE13004CAAAF /* EarTrainer */,
+				DEEB8559218CAE14004CAAAF /* EarTrainerTests */,
+				DEEB8564218CAE15004CAAAF /* EarTrainerUITests */,
+				DEEB8543218CAE13004CAAAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEEB8543218CAE13004CAAAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB8542218CAE13004CAAAF /* EarTrainer.app */,
+				DEEB8556218CAE14004CAAAF /* EarTrainerTests.xctest */,
+				DEEB8561218CAE15004CAAAF /* EarTrainerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEEB8544218CAE13004CAAAF /* EarTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB8545218CAE14004CAAAF /* AppDelegate.swift */,
+				DEEB8547218CAE14004CAAAF /* ViewController.swift */,
+				DEEB8549218CAE14004CAAAF /* Main.storyboard */,
+				DEEB854C218CAE14004CAAAF /* Assets.xcassets */,
+				DEEB854E218CAE14004CAAAF /* LaunchScreen.storyboard */,
+				DEEB8551218CAE14004CAAAF /* Info.plist */,
+			);
+			path = EarTrainer;
+			sourceTree = "<group>";
+		};
+		DEEB8559218CAE14004CAAAF /* EarTrainerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB855A218CAE14004CAAAF /* EarTrainerTests.swift */,
+				DEEB855C218CAE14004CAAAF /* Info.plist */,
+			);
+			path = EarTrainerTests;
+			sourceTree = "<group>";
+		};
+		DEEB8564218CAE15004CAAAF /* EarTrainerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB8565218CAE15004CAAAF /* EarTrainerUITests.swift */,
+				DEEB8567218CAE15004CAAAF /* Info.plist */,
+			);
+			path = EarTrainerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEEB8541218CAE13004CAAAF /* EarTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEB856A218CAE15004CAAAF /* Build configuration list for PBXNativeTarget "EarTrainer" */;
+			buildPhases = (
+				DEEB853E218CAE13004CAAAF /* Sources */,
+				DEEB853F218CAE13004CAAAF /* Frameworks */,
+				DEEB8540218CAE13004CAAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarTrainer;
+			productName = EarTrainer;
+			productReference = DEEB8542218CAE13004CAAAF /* EarTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEEB8555218CAE14004CAAAF /* EarTrainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEB856D218CAE15004CAAAF /* Build configuration list for PBXNativeTarget "EarTrainerTests" */;
+			buildPhases = (
+				DEEB8552218CAE14004CAAAF /* Sources */,
+				DEEB8553218CAE14004CAAAF /* Frameworks */,
+				DEEB8554218CAE14004CAAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEEB8558218CAE14004CAAAF /* PBXTargetDependency */,
+			);
+			name = EarTrainerTests;
+			productName = EarTrainerTests;
+			productReference = DEEB8556218CAE14004CAAAF /* EarTrainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEEB8560218CAE14004CAAAF /* EarTrainerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEB8570218CAE15004CAAAF /* Build configuration list for PBXNativeTarget "EarTrainerUITests" */;
+			buildPhases = (
+				DEEB855D218CAE14004CAAAF /* Sources */,
+				DEEB855E218CAE14004CAAAF /* Frameworks */,
+				DEEB855F218CAE14004CAAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEEB8563218CAE15004CAAAF /* PBXTargetDependency */,
+			);
+			name = EarTrainerUITests;
+			productName = EarTrainerUITests;
+			productReference = DEEB8561218CAE15004CAAAF /* EarTrainerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEEB853A218CAE13004CAAAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Baxter, Preston L";
+				TargetAttributes = {
+					DEEB8541218CAE13004CAAAF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					DEEB8555218CAE14004CAAAF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEEB8541218CAE13004CAAAF;
+					};
+					DEEB8560218CAE14004CAAAF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEEB8541218CAE13004CAAAF;
+					};
+				};
+			};
+			buildConfigurationList = DEEB853D218CAE13004CAAAF /* Build configuration list for PBXProject "EarTrainer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEEB8539218CAE13004CAAAF;
+			productRefGroup = DEEB8543218CAE13004CAAAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEEB8541218CAE13004CAAAF /* EarTrainer */,
+				DEEB8555218CAE14004CAAAF /* EarTrainerTests */,
+				DEEB8560218CAE14004CAAAF /* EarTrainerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEEB8540218CAE13004CAAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEB8550218CAE14004CAAAF /* LaunchScreen.storyboard in Resources */,
+				DEEB854D218CAE14004CAAAF /* Assets.xcassets in Resources */,
+				DEEB854B218CAE14004CAAAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEB8554218CAE14004CAAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEB855F218CAE14004CAAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEEB853E218CAE13004CAAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEB8548218CAE14004CAAAF /* ViewController.swift in Sources */,
+				DEEB8546218CAE14004CAAAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEB8552218CAE14004CAAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEB855B218CAE14004CAAAF /* EarTrainerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEB855D218CAE14004CAAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEB8566218CAE15004CAAAF /* EarTrainerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEEB8558218CAE14004CAAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEEB8541218CAE13004CAAAF /* EarTrainer */;
+			targetProxy = DEEB8557218CAE14004CAAAF /* PBXContainerItemProxy */;
+		};
+		DEEB8563218CAE15004CAAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEEB8541218CAE13004CAAAF /* EarTrainer */;
+			targetProxy = DEEB8562218CAE15004CAAAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEEB8549218CAE14004CAAAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEB854A218CAE14004CAAAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEEB854E218CAE14004CAAAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEB854F218CAE14004CAAAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEEB8568218CAE15004CAAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEEB8569218CAE15004CAAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEEB856B218CAE15004CAAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62SAZ975GK;
+				INFOPLIST_FILE = EarTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plebian.EarTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEEB856C218CAE15004CAAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62SAZ975GK;
+				INFOPLIST_FILE = EarTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plebian.EarTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEEB856E218CAE15004CAAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62SAZ975GK;
+				INFOPLIST_FILE = EarTrainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plebian.EarTrainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarTrainer.app/EarTrainer";
+			};
+			name = Debug;
+		};
+		DEEB856F218CAE15004CAAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62SAZ975GK;
+				INFOPLIST_FILE = EarTrainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plebian.EarTrainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarTrainer.app/EarTrainer";
+			};
+			name = Release;
+		};
+		DEEB8571218CAE15004CAAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62SAZ975GK;
+				INFOPLIST_FILE = EarTrainerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plebian.EarTrainerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EarTrainer;
+			};
+			name = Debug;
+		};
+		DEEB8572218CAE15004CAAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62SAZ975GK;
+				INFOPLIST_FILE = EarTrainerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plebian.EarTrainerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EarTrainer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEEB853D218CAE13004CAAAF /* Build configuration list for PBXProject "EarTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEB8568218CAE15004CAAAF /* Debug */,
+				DEEB8569218CAE15004CAAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEEB856A218CAE15004CAAAF /* Build configuration list for PBXNativeTarget "EarTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEB856B218CAE15004CAAAF /* Debug */,
+				DEEB856C218CAE15004CAAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEEB856D218CAE15004CAAAF /* Build configuration list for PBXNativeTarget "EarTrainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEB856E218CAE15004CAAAF /* Debug */,
+				DEEB856F218CAE15004CAAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEEB8570218CAE15004CAAAF /* Build configuration list for PBXNativeTarget "EarTrainerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEB8571218CAE15004CAAAF /* Debug */,
+				DEEB8572218CAE15004CAAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEEB853A218CAE13004CAAAF /* Project object */;
+}
