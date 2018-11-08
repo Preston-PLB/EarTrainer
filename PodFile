@@ -1,0 +1,8 @@
+use_frameworks!
+
+platform :ios, '10.3'
+
+target 'EarTrainer' do
+	pod 'Beethoven'
+	pod 'AudioKit/Core', '~> 4.0'
+end
