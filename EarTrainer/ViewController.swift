@@ -69,7 +69,8 @@ extension ViewController: PitchEngineDelegate {
         frequencyLabel.text = decimalFormat(2, pitch.frequency)
         if(pitch.closestOffset.cents > Double(tolerance)){
             oscillator.start()
-            sleep(500)
+        }else{
+            oscillator.stop()
         }
     }
     
