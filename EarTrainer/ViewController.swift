@@ -21,7 +21,8 @@ class ViewController: UIViewController {
     var basePitch = 440
     var tolerance = 5
     
-    var oscillator: AKOscilator
+    var oscillator = AKOscillator()
+    
     
     lazy var pitchEngine: PitchEngine = { [weak self] in
         let config = Config(estimationStrategy: .yin)
@@ -37,7 +38,13 @@ class ViewController: UIViewController {
         basePitch = 440
         tolerance = 5
         
-        oscillator = AKOscillator()
+        AudioKit.output = oscillator
+        
+        do{
+          try AudioKit.start()
+        }catch{
+            AKLog("AudioKit did not start!")
+        }
         
         pitchEngine.start()
     }
@@ -56,9 +63,14 @@ class ViewController: UIViewController {
 
 extension ViewController: PitchEngineDelegate {
     func pitchEngine(_ pitchEngine: PitchEngine, didReceivePitch pitch: Pitch){
+        oscillator.frequency = pitch.frequency
         noteLabel.text = "\(pitch.note.letter)"
         offsetLabel.text = decimalFormat(2, pitch.closestOffset.cents)
         frequencyLabel.text = decimalFormat(2, pitch.frequency)
+        if(pitch.closestOffset.cents > Double(tolerance)){
+            oscillator.start()
+            sleep(500)
+        }
     }
     
     func pitchEngine(_ pitchEngine: PitchEngine, didReceiveError error: Error) {
